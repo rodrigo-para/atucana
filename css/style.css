@@ -6,4 +6,5 @@
 @import url(./utilidades/tipografia.css);
 @import url(./utilidades/componentes.css);
 
-@import url(./image_slider/image_slider.css);
+@import url(./home/image_slider.css);
+@import url(./home/home.css);
