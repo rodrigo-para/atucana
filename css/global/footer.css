@@ -1,0 +1,40 @@
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer-bg {
+  border-top: 0.5px solid var(--cor-p1);
+}
+
+.rodape-container {
+  border-top: 0.5px solid var(--cor-p1);
+  white-space: nowrap;
+}
+
+.footer-contato {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.rodape {
+  display: inline-block;
+
+  font-style: italic;
+
+  animation-duration: 10s;
+  animation-name: looping-text;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+/* animação do rodapé */
+@keyframes looping-text {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
