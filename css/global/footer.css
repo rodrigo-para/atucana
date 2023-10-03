@@ -11,11 +11,13 @@
 .rodape-container {
   border-top: 0.5px solid var(--cor-p1);
   white-space: nowrap;
+  overflow: hidden;
 }
 
 .footer-contato {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
+  align-items: center;
 }
 
 .rodape {
